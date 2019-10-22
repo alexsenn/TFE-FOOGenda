@@ -31,7 +31,7 @@ zuix.controller(function (cp) {
       url: "http://localhost:3000/quadras",
       success: function (res) {
         for (let quadras of res)
-          $('#pkq').append(div);
+          zx.$('#empresas').append(div);
       },
       error: function (err) {
         // TODO: handle error
